@@ -1,0 +1,47 @@
+    .main-container {
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      place-items: center;
+    }
+
+    .add-container {
+      display: inline-block;
+    }
+
+    .tasks {
+      display: inline-block;
+    }
+
+    /* #TaskAdder {
+      display: inline-block !important;
+    } */
+    #Todo {
+      width: 80% !important;
+      display: inline !important;
+    }
+
+    #btn {
+      display: inline !important;
+    }
+
+    .AddedTask {
+      border-radius: 5px;
+      border: 1px solid #0000005c;
+      height: 38px;
+      width: 18vw;
+    }
+
+    /* #one{
+      display: grid;
+      place-items: center;
+    } */
+    @media (max-width:1200px) {
+      .AddedTask {
+        width: 65vw;
+      }
+    }
+
+    body{
+      background: linear-gradient(90deg,rgb(255, 253, 161),white);
+    }
